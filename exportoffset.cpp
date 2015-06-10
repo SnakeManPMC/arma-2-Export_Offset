@@ -7,7 +7,7 @@
 // constructor
 exportOffset::exportOffset(int argc, char *argv[])
 {
-	jepa(argc, argv);
+	runit(argc, argv);
 }
 
 
@@ -16,7 +16,7 @@ exportOffset::exportOffset(int argc, char *argv[])
 heh kind of procedural style function / method ;)
 
 */
-void exportOffset::jepa(int argc, char *argv[])
+void exportOffset::runit(int argc, char *argv[])
 {
 	// check if we have enough parameters
 	if (argc < 4)
